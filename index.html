@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Stardust 🤎</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div id="stars"></div>
+    <div id="shooting-stars"></div>
+
+    <!-- ========================= -->
+    <!-- Loading Screen -->
+    <!-- ========================= -->
+
+    <section class="loading-screen">
+
+        <h3 class="small-title">PROJECT</h3>
+
+        <h1 class="title">
+            STARDUST
+        </h1>
+
+        <p class="subtitle">
+            Every star has a destination...
+            <br>
+            Mine led me to you. 🤎
+        </p>
+
+        <div class="progress-container">
+
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <p id="loadingText">
+                Preparing something special...
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- Welcome Screen -->
+    <!-- ========================= -->
+
+    <section class="welcome-screen hidden">
+
+        <div class="welcome-content">
+
+            <p class="welcome-small">
+                ✨ A Special Message
+            </p>
+
+            <h1 id="typingText"></h1>
+
+            <p class="welcome-message">
+
+                Before you continue...
+
+                <br><br>
+
+                I built this little world just for you.
+
+                <br><br>
+
+                Every page has a reason.
+
+                Every animation has a meaning.
+
+                Every click brings you closer to something I've wanted to tell you.
+
+                <br><br>
+
+                Ready to begin?
+
+            </p>
+
+            <button id="beginJourney">
+                Begin Our Journey 🤎
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- Mission Screen -->
+    <!-- ========================= -->
+
+    <section class="mission-screen hidden">
+
+        <div class="mission-card">
+
+            <h3>🌌 PROJECT STARDUST</h3>
+
+            <h1>MISSION BRIEFING</h1>
+
+            <div class="mission-info">
+
+                <div class="info">
+                    <span>👤 Target</span>
+                    <strong>Timileyin 🤎</strong>
+                </div>
+
+                <div class="info">
+                    <span>❤️ Objective</span>
+                    <strong>Make Her Smile</strong>
+                </div>
+
+                <div class="info">
+                    <span>⭐ Difficulty</span>
+                    <strong>Unknown...</strong>
+                </div>
+
+                <div class="info">
+                    <span>🎁 Reward</span>
+                    <strong>Something Special</strong>
+                </div>
+
+            </div>
+
+            <button id="acceptMission">
+                Accept Mission 🚀
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ========================= -->
+    <!-- Chapter One -->
+    <!-- ========================= -->
+
+    <section class="chapter-screen hidden">
+
+        <div class="chapter-card">
+
+            <p class="chapter-small">CHAPTER I</p>
+
+            <h1>How It All Started...</h1>
+
+            <p id="chapterText"></p>
+
+            <button id="chapterContinue">
+                Continue →
+            </button>
+
+        </div>
+
+    </section>
+<!-- ========================= -->
+<!-- Memory Gallery -->
+<!-- ========================= -->
+
+<section class="gallery-screen hidden">
+
+    <div class="gallery-card">
+
+        <p class="gallery-small">CHAPTER II</p>
+
+        <h1>The Moments That Made Me Smile</h1>
+
+        <img id="memoryImage" src="assets/image/photo1.jpg" alt="Memory">
+
+        <p id="memoryText"></p>
+
+        <button id="memoryNext">
+            Continue →
+        </button>
+
+    </div>
+
+</section>
+<!-- ========================= -->
+<!-- Love Letter -->
+<!-- ========================= -->
+
+<section class="letter-screen hidden">
+
+    <div class="letter-card">
+
+        <p class="letter-small">💌 A Letter For You</p>
+
+        <h1>To: Timileyin 🤎</h1>
+
+        <p id="letterText"></p>
+
+        <button id="letterContinue">
+            Continue ❤️
+        </button>
+
+    </div>
+
+</section>
+<!-- ========================= -->
+<!-- Final Proposal -->
+<!-- ========================= -->
+
+<section class="proposal-screen hidden">
+
+    <div class="proposal-card">
+
+        <p class="proposal-small">✨ FINAL CHAPTER ✨</p>
+
+        <h1>Timileyin 🤎</h1>
+
+        <p id="proposalText">
+            From the very first day...
+            <br><br>
+            I realized something.
+            <br><br>
+            You make my world brighter.
+            <br><br>
+            <strong>Will you be my girlfriend? ❤️</strong>
+        </p>
+
+        <div class="proposal-buttons">
+
+            <button id="yesBtn">YES 🤎</button>
+
+            <button id="noBtn">NO 🤍</button>
+
+        </div>
+
+    </div>
+
+</section>
+<audio id="bgMusic" loop>
+    <source src="assets/music/song.mp3" type="audio/mpeg">
+</audio>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
